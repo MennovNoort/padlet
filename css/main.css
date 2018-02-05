@@ -1,0 +1,133 @@
+*{text-decoration: none;}
+body{
+    padding:0;
+    font-family:sans-serif;
+   
+    
+}
+.back{
+    width:auto;
+    height:auto;
+    padding:15px;
+    color:white;
+    background-color:#3498db;
+    border:none;
+}
+.button{
+    width:auto;
+    padding:8px 10px;
+    height:auto;
+    border:none;
+    color:white;
+    border-radius:30px;
+    text-transform:uppercase;
+}
+.button:hover{
+    cursor:pointer;
+}
+#make{
+    background-color:orange;
+}
+
+#join{
+    background-color:green;
+}
+#container{
+    padding-top:50px;
+    width:90%;
+    margin:0 auto;
+}
+
+.board{
+    padding:5px 15px;
+    min-width:220px;
+    height:100px;
+    background-color:orange;
+    border-radius:10px;
+    display: inline-block;
+    margin-right:20px;
+    margin-top:20px;
+    
+}
+.board a{
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family:cursive;
+}
+.board p{
+    color:white;
+    font-size:15px;
+}
+#join{
+}
+input[type="text"]{
+    width:250px;
+    height:30px;
+    padding-left:5px;
+}
+#title{
+    font-size:48px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.result{
+    width:250px;
+    height:auto;
+    color:white;
+    padding:25px;
+    margin:5px;
+    display: inline-block;
+    background-color:#e74c3c;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+#voegtoe{
+    width:auto;
+    padding:8px 10px;
+    height:auto;
+    border:none;
+    color:white;
+    border-radius:30px;
+    text-transform:uppercase;
+    background-color:orangered;
+}
+#annuleer{
+    width:auto;
+    padding:8px 10px;
+    height:auto;
+    border:none;
+    color:white;
+    border-radius:30px;
+    text-transform:uppercase;
+    background-color:greenyellow;
+}
+#add{
+    border:none;
+    border-radius:360px;
+    width:60px; 
+    height:60px;
+    font-family:50px;
+    background-color:dodgerblue;
+    color:white;
+    font-size:40px;
+    cursor: pointer;
+}
+
+#formdiv{
+    display: inline-block;
+    background-color:gray;
+    width:250px;
+    height:200px;
+}
+
+
+#all-boards{
+    flex-wrap:wrap; 
+    display:flex;
+    margin-top:50px;
+    padding:15px;
+    width:100%;
+    background-color: lightgray;
+    height:auto;
+}
